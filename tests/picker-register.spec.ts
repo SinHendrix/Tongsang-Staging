@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Register with filled name, unregistered phone number, affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -55,7 +55,7 @@ test('Register with filled name, unregistered phone number, affiliation, and ter
 
 test('Register with blank name, phone number, affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -110,7 +110,7 @@ test('Register with blank name, phone number, affiliation, and terms and conditi
 
 test('Register with filled name, blank phone number, affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -168,7 +168,7 @@ test('Register with filled name, blank phone number, affiliation, and terms and 
 
 test('Register with filled phone number, blank name, affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -226,7 +226,7 @@ test('Register with filled phone number, blank name, affiliation, and terms and 
 
 test('Register with filled terms and conditions, blank name, phone number, and affiliation', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -284,7 +284,7 @@ test('Register with filled terms and conditions, blank name, phone number, and a
 
 test('Register with filled affiliation, blank name, phone number, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -342,7 +342,7 @@ test('Register with filled affiliation, blank name, phone number, and terms and 
 
 test('Register with filled name, filled with unregistered phone number, blank affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -401,7 +401,7 @@ test('Register with filled name, filled with unregistered phone number, blank af
 
 test('Register with filled name, filled with registered phone number, blank affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -460,7 +460,7 @@ test('Register with filled name, filled with registered phone number, blank affi
 
 test('Register with filled name, blank phone number, filled affiliation, and terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -519,7 +519,7 @@ test('Register with filled name, blank phone number, filled affiliation, and ter
 
 test('Register with filled name, blank phone number, blank affiliation, and checked terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -580,7 +580,7 @@ test('Register with filled name, blank phone number, blank affiliation, and chec
 
 test('Register with filled name, filled with unregistered phone number, filled affiliation, and unchecked terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -640,7 +640,7 @@ test('Register with filled name, filled with unregistered phone number, filled a
 
 test('Register with filled name, filled with registered phone number, filled affiliation, and unchecked terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -700,7 +700,7 @@ test('Register with filled name, filled with registered phone number, filled aff
 
 test('Register with filled name, filled with unregistered phone number, blank affiliation, and checked terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -753,7 +753,7 @@ test('Register with filled name, filled with unregistered phone number, blank af
 
 test('Register with filled name, filled with registered phone number, blank affiliation, and checked terms and conditions', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -812,7 +812,7 @@ test('Register with filled name, filled with registered phone number, blank affi
 
 test('Register with less than 10 digits phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -864,7 +864,7 @@ test('Register with less than 10 digits phone number', async ({ page }) => {
 
 test('Register with exactly 10/11 digits phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -920,7 +920,7 @@ test('Register with exactly 10/11 digits phone number', async ({ page }) => {
 
 test('Register with more than 11 digits phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first

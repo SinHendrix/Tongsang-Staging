@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Login with registered phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -62,7 +62,7 @@ test('Login with registered phone number', async ({ page }) => {
 
 test('Login with unregistered phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -124,7 +124,7 @@ test('Login with unregistered phone number', async ({ page }) => {
 
 test('Check new register button', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -145,7 +145,7 @@ test('Check new register button', async ({ page }) => {
 
 test('Access Main Page without Login', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/choose-intent')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/choose-intent')
     await page.pause()
 
     // verify all element is visible first
@@ -159,7 +159,7 @@ test('Access Main Page without Login', async ({ page }) => {
 
 test('Login with under 10 digits phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -206,7 +206,7 @@ test('Login with under 10 digits phone number', async ({ page }) => {
 
 test('Login with 10 digits unregistered phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -253,7 +253,7 @@ test('Login with 10 digits unregistered phone number', async ({ page }) => {
 
 test('Login with under 11 digits unregistered phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -310,7 +310,7 @@ test('Login with under 11 digits unregistered phone number', async ({ page }) =>
 
 test('Login with 10 digits registered phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -363,7 +363,7 @@ test('Login with 10 digits registered phone number', async ({ page }) => {
 
 test('Login with 11 digits registered phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
@@ -417,7 +417,7 @@ test('Login with 11 digits registered phone number', async ({ page }) => {
 
 test('Login with more than 11 digits phone number', async ({ page }) => {
 
-    await page.goto('https://golds-tongsang.vercel.app/tablet/login')
+    await page.goto('http://golds-tongsang-dev.vercel.app/tablet/login')
     await page.pause()
 
     // verify all element is visible first
